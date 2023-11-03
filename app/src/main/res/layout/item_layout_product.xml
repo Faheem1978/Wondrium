@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/pImage"
+        android:layout_width="100dp"
+        android:layout_height="130dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/pName"
+        style="@style/titleTextStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/pImage"
+        app:layout_constraintTop_toTopOf="@+id/pImage"
+        tools:text="Product name" />
+
+    <TextView
+        android:id="@+id/pCourseName"
+        style="@style/subtitleTextStyle"
+        android:layout_width="0dp"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/pImage"
+        app:layout_constraintTop_toBottomOf="@+id/pName"
+        tools:text="Course name" />
+
+    <TextView
+        android:id="@+id/pShortDescription"
+        style="@style/descriptionTextStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/pImage"
+        app:layout_constraintTop_toBottomOf="@+id/pImage"
+        tools:text="Product Description" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

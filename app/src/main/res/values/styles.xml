@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="titleTextStyle">
+        <item name="android:textSize">18dp</item>
+        <item name="android:padding">4dp</item>
+
+    </style>
+    <style name="subtitleTextStyle">
+        <item name="android:textSize">16dp</item>        <item name="android:padding">4dp</item>
+
+    </style>
+
+    <style name="descriptionTextStyle">
+        <item name="android:textSize">12dp</item>
+        <item name="android:padding">4dp</item>
+
+    </style>
+</resources>
