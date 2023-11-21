@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "WondriumCodingChallenge"
+rootProject.name = "CodingChallenge"
 include(":app")
  

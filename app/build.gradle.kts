@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.wondrium.app"
+    namespace = "com.coding.app"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.wondrium.app"
+        applicationId = "com.coding.app"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -67,10 +67,10 @@ dependencies {
 
     implementation("io.coil-kt:coil:2.4.0")
 
-    implementation ("androidx.media3:media3-exoplayer:1.1.1")
-    implementation ("androidx.media3:media3-exoplayer-dash:1.1.1")
-    implementation ("androidx.media3:media3-exoplayer-hls:1.1.1")
-    implementation ("androidx.media3:media3-ui:1.1.1")
+    implementation("androidx.media3:media3-exoplayer:1.1.1")
+    implementation("androidx.media3:media3-exoplayer-dash:1.1.1")
+    implementation("androidx.media3:media3-exoplayer-hls:1.1.1")
+    implementation("androidx.media3:media3-ui:1.1.1")
 
 }
 kapt {
